@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Crack The Flag</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/bootstrap4-neon-glow.min.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="navbar-dark text-white">
+    <section>
+        <nav class="navbar navbar-expand-lg" style="margin-top: -50px;background-color: #111927; height: 130px;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col-md-2">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="pl-md-0 text-decoration-none text-light">
+                            <title>Logo</title>
+                            <img src="images/ctfred.png" alt="Logo" style="width: 100px; margin-top: -25px;height: 200%;">
+                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-10">
+                <div class="navbar-nav mx-0 color_white">
+                    <a href="index.html" class="p-3 text-decoration-none text-white bold" style="margin-top: 30px;margin-left: 400px;">Home</a>
+                    <a href="about.html" class="p-3 text-decoration-none text-light bold"style="margin-top: 30px;">Organizer</a>
+                    <a href="about.html" class="p-3 text-decoration-none text-light bold btn btn-primary"style="margin-top: 30px;margin-left: 825px;">
+                        SIGN IN
+                    </a>
+                </div>
+            </div>
+            
+            
+        </nav>
+        
+    </section>
+    
+    <section>
+        <div class="row mt-5">
+            <div class="jumbotron bg-transparent mb-0 pt-3 radius-0">
+                <div class="container"style="margin-left:120px">
+                    <div class="row">
+                        <div class="col-xl-8">
+                            <h1 class="display-1 bold color_danger content__title">CRACK THE FLAG<span
+                                    class="vim-caret">&nbsp;</span></h1>
+                            <h1 class="display-1 bold color_white content__title2">2024</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <p class="mt-5 text-grey text-spacey hackerFont lead">
+                                The Ultimate CTF Battleground / The Warfield For Hackers.
+                            </p>
+                            <button class="btn btn-outline-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left typewriter"
+                                onclick="(function(){window.location.href='JoinUs.html'})();">
+                                <h4>Join Us</h4>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+    
+    
+
+    <!-- time coutdown -->
+    <div class="d-flex justify-content-around container mt-5 color_white" style="width: 100%;">
+        <div>
+            <div class="row text-center bg-black" style="width: 500px;height: fit-content;">
+                <div class="col" style=" 
+            padding-bottom: 20px;
+            padding-top: 20px;
+            margin-right: 10px;
+            border-radius: 10px;
+            background: #111927;">
+                    <p id="days"></p> Days
+                </div>
+                <div class="col" style="padding-bottom: 20px;
+            padding-top: 20px;
+            margin-right: 10px;
+            border-radius: 10px;
+            background: #111927;">
+                    <p id="hours"></p> Hours
+                </div>
+                <div class="col" style="padding-bottom: 20px;
+            padding-top: 20px;
+            margin-right: 10px;
+            border-radius: 10px;
+            background: #111927;">
+                    <p id="minutes"></p> Minutes
+                </div>
+                <div class="col" style="padding-bottom: 20px;
+            padding-top: 20px;
+            border-radius: 10px;
+            background: #111927;">
+                    <p id="seconds"></p> Seconds
+                </div>
+            </div>
+
+            <div class="mt-5">
+                <div class="row bg-black" >
+                    <div class="col-sm-3 feature-type">
+                        <div>Event Type</div>
+                        <p style="font-size: 12px;">Capture The Flag</p>
+                    </div>
+                    <div class="col-sm-3 feature-type">
+                        <div>Place</div>
+                        <p style="font-size: 12px;">Uttara University Campus</p>
+                    </div>
+                    <div class="col-sm-3 feature-type">
+                        <div>Entry Fee</div>
+                        <p style="font-size: 12px;">Fee</p>
+                    </div>
+                    <div class="col-sm-3 feature-type">
+                        <div>Team Size</div>
+                        <p style="font-size: 12px;">1-4</p>
+                    </div>
+                    <div class="col-sm-3 feature-type">
+                        <div>Difficulty</div>
+                        <p style="font-size: 12px;">Easy to hard</p>
+                    </div>
+                    <div class="col-sm-3 feature-type">
+                        <div>CTF Style</div>
+                        <p style="font-size: 12px;">Jeopardy</p>
+                    </div>
+                </div>
+                <!-- About -->
+            <div class="row"> 
+                <div class="jumbotron bg-transparent mb-0 pt-3 radius-0">
+                    <div class="container" style="background-color: #111927;margin-left: -30px;width: 84%;border-radius: 1%;">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <h1 class="display-3 bold color_white content__title text-center">
+                                    <span style="margin-left: 0px;"class="color_danger">ABOUT
+                                        THE</span>EVENT<span class="vim-caret">&nbsp;</span>
+                                </h1>
+                                <p>CRACK THE FLAG is a Cyber Security competition organized by&nbsp;<span class="color-green" style="color: rgb(52, 199, 52); --darkreader-inline-color: #50ce50;" data-darkreader-inline-color="">Cyber Security Club,Uttara University</span>&nbsp;The contest is intended to mobilize the energies of everyone, their knowledge and abilities on hacking information systems and applications in a controlled and challenging environment.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+         
+
+        <div style="border-radius: 10px; background: #111927; padding: 20px; width: 600px;height:10%;position:static;">
+            <div style="text-align: center;">
+                <h2>
+                    ABOUT THE EVENT
+                </h2>
+                <h2>
+                    HUNT 2024
+                </h2>
+                <h3>
+                    January 20th - 29th, 2024
+                </h3>
+            </div>
+            <div>
+                <p style="text-align: center;">
+                    Please read the instructions carefully and fill out the form.
+                </p>
+            </div>
+            <div>
+                <p style="font-size: 12px;">PRE-QUALIFY ROUND</p>
+                <p>Saturday, January 20, 2024</p>
+            </div>
+            <div>
+                <p style="font-size: 12px;">FINAL ROUND</p>
+                <p>Monday, January 29, 2024</p>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-success">
+                    JoinUs
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- LET’S MAKE AN IMPACT -->
+    <div class="jumbotron bg-transparent mb-0 pt-2 radius-0">
+        <div class="container" style="background-color: #111927;margin-left: 326px;width: 32%;border-radius: 1%;">
+            <div class="row">
+                <div class="col-xl-10">
+                    <h1 class="display-3 bold color_white content__title text-center">
+                        <span style="text-align: center;margin-left: 80px;font-size: 30px" class="color_danger">LET’S MAKE</span> <span style="text-align: center;font-size: 30px" class="color_white">AN IMPACT</span>
+                    </h2>
+                    <p>The main objective of this computational event is to encourage students to develop their skills, to train and exercise both intellectual and practical abilities in the Cyber Security field as future specialists.&nbsp;<br><br>The contest, organized as a CTF competition (Capture The Flag), is based on solving challenges from a diverse range of categories such as web exploitation, forensics, reverse engineering, binary exploitation and more! We made sure that each category has challenges for every skill level, so that there is always something for everyone to enjoy and work on. This competition is using a dynamic scoring system, meaning that the more solves a challenge, the less points it will bring to each of the solving teams. This system is put in place in order to keep the challenge score updated to its real difficulty level.&nbsp;</p>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- WHYJOIN -->
+    <div class="jumbotron bg-transparent mb-0 pt-2 radius-0">
+        <div class="container" style="background-color: #111927;margin-left: 326px;width: 32%;border-radius: 1%;">
+            <div class="row">
+                <div class="col-xl-10">
+                    <h1 class="display-3 bold color_white content__title text-center">
+                        <span style="text-align: center;font-size: 30px" class="color_danger">LET’S MAKE</span> <span style="text-align: center;font-size: 30px" class="color_white">AN IMPACT</span>
+                    </h2>
+                    <p>Hack amazing content
+                        Learn with the best hacking content from the Bangladeshi CTF community!</p>
+                        
+                        <p> the best prizes
+                        A never-seen-before prize list is awaiting the top teams!</p>
+                        
+                        <p>Climb the scoreboard
+                        Achieve eternal glory and show your team is the best!</p>
+                        
+                        <p>Get CTF-Certified
+                        For all players with 200+ points.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- COMPETITION CATEGORY -->
+    <div class="col-xl-10">
+        <h1  class="display-3 bold color_white content__title text-center">
+            <span style="text-align: left;font-size: 30px" class="color_danger">LET’S MAKE</span> <span style="text-align: left;font-size: 30px" class="color_white">AN IMPACT</span>
+        </h2>
+    </div>        
+    <div style="text-align: left;font-size: 20px" class="row bg-black" >
+        <div style="background-color: #111927;margin-left: 370px;width: 10%;height: 100px; border-radius: 10%;" class="col-sm-1 feature-type">
+            <div>Web Exploitation</div>
+        </div>
+        <div style="background-color: #111927;margin-left: 20px;width: 10%;height: 100px; border-radius: 10%;" class="col-sm-1 feature-type">
+            <div>Digital Forensic</div>
+        </div>
+        <div style="background-color: #111927;margin-left: 20px;width: 10%;height: 100px; border-radius: 10%;" class="col-sm-1 feature-type">
+            <div>Cryptography</div>
+        </div>
+        <div style="background-color: #111927;margin-left: 20px;width: 10%;height: 100px; border-radius: 10%;" class="col-sm-1 feature-type">
+            <div>Steganography</div>
+        </div>
+        <div style="background-color: #111927;margin-left: 20px;width: 10%;height: 100px; border-radius: 10%;" class="col-sm-1 feature-type">
+            <div>Reverse Engineering</div>
+        </div>
+        <div style="background-color: #111927;margin-left: 20px;width: 10%;height: 100px; border-radius: 10%;" class="col-sm-1 feature-type">
+            <div>Misc</div>
+        </div>
+    </div> 
+    <!-- HOW TO JOIN -->
+    <div class="col-xl-10">
+        <h1 class="display-3 bold color_white content__title text-center">
+            <span style="text-align: center;font-size: 35px" class="color_danger">HOW TO </span>JOIN<span class="vim-caret">&nbsp;</span>
+            <p class="text-grey text-spacey text-center hackerFont lead">
+                Get your team ready. Sign up
+            </p>
+            <p class="text-grey text-spacey text-center hackerFont lead">
+                The CTF is open to everyone! You can join the Cyber Apocalypse squad in 4 simple steps.
+            </p>
+        </h1>
+    </div>
+    <div class="row bg-black" >
+        <div style="background-color: #111927;margin-left: 50px;width: 10%;height: 100px; border-radius: 10%;" class="col-sm-1 feature-type">
+            <div>STEP 1</div>
+            <p style="font-size: 12px;">Go to CRACK THE FLAG.com</p>
+        </div>
+        <div style="background-color: #111927;margin-left: 50px;width: 10%;height: 100px; border-radius: 10%;" class="col-sm-1 feature-type">
+            <div>STEP 2</div>
+            <p style="font-size: 12px;">Create an account or login</p>
+        </div>
+        <div style="background-color: #111927;margin-left: 50px;width: 10%;height: 100px; border-radius: 10%;" class="col-sm-1 feature-type">
+            <div>STEP 3</div>
+            <p style="font-size: 12px;">Create your team (1-4 players)</p>
+        </div>
+        <div style="background-color: #111927;margin-left: 50px;width: 10%;height: 100px; border-radius: 10%;" class="col-sm-1 feature-type">
+            <div>STEP 4</div>
+            <p style="font-size: 12px;">Join “CRACK THE FLAG CTF 2024”</p>
+        </div>
+    </div>
+    <!-- Extra Box -->
+    <div class="row bg-black" >
+        <div style="background-color: #111927;margin-left: 50px;width: 10%;height: 100px; border-radius: 10%;" class="col-sm-1 feature-type">
+            <div>Discord</div>
+            <p style="font-size: 12px;">Join our Discord server and check out #CRACK-THE-FLAG-CTF-2024 to meet your opponents, share hacking tips and connect.</p>
+        </div>
+        <div style="background-color: #111927;margin-left: 50px;width: 10%;height: 100px; border-radius: 10%;" class="col-sm-1 feature-type">
+            <div>CTFtime</div>
+            <p style="font-size: 12px;">CTFtime
+                Add your participation on CTFtime. Your ranking will be uploaded after the CTF ends. Don’t miss a single point!</p>
+        </div>
+        <div style="background-color: #111927;margin-left: 50px;width: 10%;height: 220px; border-radius: 10%;" class="col-sm-1 feature-type">
+            <div>Official Hashtag</div>
+            <p style="font-size: 12px;">Make us part of your journey and share training tips, comments, and any story using: #CRACKTHEFLAGCTF2024 #CRACKTHEFLAG #CRACKTHEFLAG2024 #CTF2024</p>
+    </div>
+    <!-- Prize Pool Section -->
+    <div class="container">
+        <div class="col-xl-12">
+            <h1 class="display-3 bold color_white content__title text-center">
+                <span style="text-align: center;"class="color_danger">Prize</span>Pool<span class="vim-caret">&nbsp;</span>
+            </h1>
+        </div>
+    </div>
+    <section class="prize-pool-section">
+        <div class="container"Style= "margin-left=50px;">
+            <div class="row mt-4" style="background-color:#111927; height: 75px;">
+                <div class="col-sm-4">
+                    <img style="height: 10%;"src="images/1st price.png" alt="Prize Photo">
+                </div>
+                <div class="col-sm-4">
+                    <p style="margin-top: 27px;">First Place</p>
+                </div>
+                <div class="col-sm-4">
+                    <p style="margin-top: 27px;">৳ 80,000</p>
+                </div>
+            </div>
+
+            <div class="row mt-4" style="background-color:#111927; height: 75px;">
+                <div class="col-sm-4">
+                    <img style="height: 10%;"src="images/1st price.png" alt="Prize Photo">
+                </div>
+                <div class="col-sm-4">
+                    <p style="margin-top: 27px;">First Place</p>
+                </div>
+                <div class="col-sm-4">
+                    <p style="margin-top: 27px;">৳ 80,000</p>
+                </div>
+            </div>
+
+            <div class="row mt-4" style="background-color:#111927; height: 75px;">
+                <div class="col-sm-4">
+                    <img style="height: 10%;"src="images/1st price.png" alt="Prize Photo">
+                </div>
+                <div class="col-sm-4">
+                    <p style="margin-top: 27px;">First Place</p>
+                </div>
+                <div class="col-sm-4">
+                    <p style="margin-top: 27px;">৳ 80,000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Companies Section -->
+
+    <div class="col-xl-12">
+        <h1 class="display-3 bold color_white content__title text-center"><span class="color_white">Sponsor</span>By<span class="vim-caret">&nbsp;</span></h1>
+        <p class="text-grey text-spacey text-center hackerFont lead">
+            of the best companies in the world.
+        </p>
+    </div>
+    <section class="companies-section">
+        <div class="container">
+            <div class="companies-wrapper">
+                 <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png" alt="Google Icon" style="width: 10%;height: 50%;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png" alt="Microsoft Icon"style="width: 10%;height: 50%;">
+                    <img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-2-2.png" alt="Facebook Icon"style="width: 10%;height: 50%;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png" alt="Amazon Icon"style="width: 10%;height: 50%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer start-->
+    <div class="bg-transparent content d-flex justify-content-center align-items-center bg-light">
+        <div>
+            Copyright by ctf2024
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/preloader.js"></script>
+    <script>
+        // Countdown timer
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 29, 2024 15:37:25").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            // document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            //     + minutes + "m " + seconds + "s ";
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+</body>
+
+</html>
